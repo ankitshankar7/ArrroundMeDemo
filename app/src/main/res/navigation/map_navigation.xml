@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map_navigation"
+    app:startDestination="@id/nearByRestaurantFragment">
+
+    <fragment
+        android:id="@+id/nearByRestaurantFragment"
+        android:name="com.example.arroundmedemo.restaurants.ui.fragments.NearByRestaurantFragment"
+        android:label="Nearby"
+        tools:layout="@layout/fragment_near_by_restaurant" >
+
+        <action
+            android:id="@+id/action_nearByRestaurantFragment_to_nearyByRestaurantMapsFragment"
+            app:destination="@id/nearyByRestaurantMapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wishlistFragment"
+        android:name="com.example.arroundmedemo.restaurants.ui.fragments.WishlistFragment"
+        android:label="Wishlist"
+        tools:layout="@layout/fragment_wishlist" >
+
+        <action
+            android:id="@+id/action_wishlistFragment_to_nearyByRestaurantMapsFragment"
+            app:destination="@id/nearyByRestaurantMapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nearyByRestaurantMapsFragment"
+        android:name="com.example.arroundmedemo.NearyByRestaurantMapsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_neary_by_restaurant_maps" />
+</navigation>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ArroundMeDemo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ok">Ok</string>
+    <string name="no_data">No Wishlist found.</string>
+    <string name="nearby_restaurants">Nearby Restaurants</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="location_permission">Location permission not granted. You can\'t proceed without location permission. Please allow it from the settings.</string>
+    <string name="OK">Ok</string>
+    <string name="no_nearby_restro">No NearBy Restaurant Found.</string>
+    <string name="rating">Rating</string>
+</resources>
